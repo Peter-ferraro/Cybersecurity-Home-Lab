@@ -1,7 +1,7 @@
 # Cybersecurity Home Lab
 
 ## Objective
-This Detection Lab project focuses on using a Security Information and Event Management (SIEM) system to ingest and analyze logs from various sources in a controlled environment. This project focuses on creating telemetry to detect, investigate, and respond to security events in real time. By configuring log sources, and developing custom parsing rules, This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+This Cybersecurity home lab configuration project focuses on designing and constructing the systems that make up a fundamental SOC. the goal is was to create virtual environment where I could test out multiple different security systems. In this project I deploy virtual machines and configure multiple networks in order to create an invironment where I can simulate external threats.
 
 ### Skills Learned
 
