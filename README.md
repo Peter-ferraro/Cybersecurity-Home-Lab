@@ -1,7 +1,7 @@
 # Cybersecurity Home Lab
 
 ## Objective
-This Cybersecurity home lab configuration project focuses on designing and constructing the systems that make up a fundamental SOC. the goal is was to create virtual environment where I could test out multiple different security systems. In this project I deploy virtual machines and configure multiple networks in order to create an invironment where I can simulate external threats. In this environment, I also configured some important security tools, such as Wazuh, Suricata, OpenVAS and OsTicket, and created workflows from these systems to automatically create tickets in OsTicket.
+This Cybersecurity home lab configuration project focuses on designing and constructing the systems that make up a fundamental SOC. The goal is was to create virtual environment where I could test out multiple different security systems. In this project I deploy virtual machines and configure multiple networks in order to create an invironment where I can simulate external threats. In this environment, I also configured some important security tools, such as Wazuh, Suricata, OpenVAS and OsTicket, and created workflows from these systems to automatically create tickets in OsTicket.
 
 ### Skills Learned
 
