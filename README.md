@@ -32,7 +32,10 @@ I first set up an OPNsense machine. This machine is my firewall/gateway, it allo
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 145005" src="https://github.com/user-attachments/assets/755950f3-6424-45ab-9095-78d41a8561bb" />
 The next machine is an Ubuntu 22.04 desktop machine, which is where I installed the Wazuh manager, as well as OpenVAS, and was primarily the workhorse machine I used to configure all the systems.
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 144816" src="https://github.com/user-attachments/assets/da4baff2-5087-4c1f-9203-8e37d72be297" />
-<img width="1920" height="1032" alt="Screenshot 2026-02-24 144519" src="https://github.com/user-attachments/assets/64087fc1-4f97-4e36-b55d-f2a3455b7682" />
+This next machine is a Ubuntu 22.04 server VM which is very barebones, I used it solely to host OsTicket, that way I could emulate a ticketing system workflow.
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 145155" src="https://github.com/user-attachments/assets/76718ee9-1214-4cf2-a9c8-c16815341302" />
+Now for the two machines which will be emulation real world scenerios. First is this Kali Linux VM which is places on its own seperate LAN in order to emulate an outside attack. This machine is the primary one I will use to carry out attacks in my other projects that will be using this lab.
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 144519" src="https://github.com/user-attachments/assets/64087fc1-4f97-4e36-b55d-f2a3455b7682" />
+The last machine is this Windows 11 VM, and its primary goal is to be the target. It is a Wazuh agent, and it is also a target for OpenVAS scans.
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 144643" src="https://github.com/user-attachments/assets/7ecdbc3a-ccd4-4771-92cf-729e76a96764" />
 
