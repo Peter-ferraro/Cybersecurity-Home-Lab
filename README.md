@@ -26,7 +26,7 @@ This Cybersecurity home lab configuration project focuses on designing and const
   This section will be more of a description of the home lab that I built, which allows me to to experiment with different cybersecurity tools and systems. I will go through all of the virtual machines and systems involved in this home lab, as well as the workflows used to direct alerts to Wazuh and OsTicket. I do want to note that if resources were unlimited, I would have gone more in depth with the network construction (ie. assigning an individual firewall to each network, and having the Wazuh manager on a seperate network, where the firewall allows access only from machines that need to interact.) but I am running all of these VMs on my personal computer, so resources are limited.
 
   Here Is a Simple diagram outlining the basic network layout.
-![Network Diagram](https://github.com/user-attachments/assets/b9a4d3c0-43c7-4ce1-8019-23191f73aa0e)
+![Network Diagram](https://github.com/user-attachments/assets/72a44d31-c1ff-4b48-9acd-55a32852b0ec)
 
 
   I will quickly go through all of the machines that I created for this lab, they were all created using Oracle Virtualbox.
