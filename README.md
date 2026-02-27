@@ -23,8 +23,6 @@ This Cybersecurity home lab configuration project focuses on designing and const
 - Python 3: Used for developing custom integration scripts to facilitate communication between isolated security tools.
 
 ## Steps
-I started by installing Sysmon on my windows 11 VM. Sysmon is a Windows tool that generates telemetry on system activity to help with threat detection and monitoring.
-
-My next step was to create a cloud based VM with Ubuntu 22.04 installed, I would use this machine as my Wazuh manager. (I used DigitalOcean for my VM's, please excuse the other two, they will come up in my Automation Project.)
+This section will be more of a description of the home lab that I built, which allows me to to experiment with different cybersecurity tools and systems. I will go through all of the virtual machines and systems involved in this home lab, as well as the workflows used to direct alerts to Wazuh and OsTicket. I do want to note that if resources were unlimited, I would have gone more in depth with the network construction (ie. assigning an individual firewall to each network, and having the Wazuh manager on a seperate network, where the firewall allows access only from machines that need to interact.) but I am running all of these VMs on my personal computer, so resources are limited.
 
 <img width="759" height="361" alt="Screenshot 2025-07-28 212829" src="https://github.com/user-attachments/assets/b4f897e2-025f-4be3-84c0-1f81e5cc2172" />
