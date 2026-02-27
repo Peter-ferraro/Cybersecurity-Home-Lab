@@ -30,6 +30,7 @@ This Cybersecurity home lab configuration project focuses on designing and const
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 144356" src="https://github.com/user-attachments/assets/ed06adf8-4b95-426f-b7d4-7873edb2389b" />
 I first set up an OPNsense machine. This machine is my firewall/gateway, it allows me to control access to the internet when needed, and keep the the network closed off from the outside world otherwise. It also has Suricata installed, which will be included in greater detail in a project focused specifically on IDS/IPS.
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 145005" src="https://github.com/user-attachments/assets/755950f3-6424-45ab-9095-78d41a8561bb" />
+The next machine is an Ubuntu 22.04 desktop machine, which is where I installed the Wazuh manager, as well as OpenVAS, and was primarily the workhorse machine I used to configure all the systems.
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 144816" src="https://github.com/user-attachments/assets/da4baff2-5087-4c1f-9203-8e37d72be297" />
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 144519" src="https://github.com/user-attachments/assets/64087fc1-4f97-4e36-b55d-f2a3455b7682" />
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 145155" src="https://github.com/user-attachments/assets/76718ee9-1214-4cf2-a9c8-c16815341302" />
