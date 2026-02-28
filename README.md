@@ -70,10 +70,23 @@ The next system is OpenVAS (Greenbone) a comprehensive vulnerability management 
 <br>
 <img width="1920" height="1032" alt="Screenshot 2026-02-24 151224" src="https://github.com/user-attachments/assets/d57275a1-b08f-4462-b821-794f8e2e5eb9" /><br>
 <br>
-
-<img width="1920" height="1032" alt="Screenshot 2026-02-24 145458" src="https://github.com/user-attachments/assets/4ec0005c-66e9-4983-be42-2e3b5e4fc955" />
-<img width="3840" height="2064" alt="Screenshot 2026-02-28 120408" src="https://github.com/user-attachments/assets/c09b20a6-b28d-4065-89c4-b64c7f149132" />
-<img width="3840" height="2064" alt="Screenshot 2026-02-28 120452" src="https://github.com/user-attachments/assets/a71161e0-901f-4242-8781-8408a1b4d05b" />
-<img width="3840" height="2064" alt="Screenshot 2026-02-28 120530" src="https://github.com/user-attachments/assets/ff7a2fe6-e844-480a-86d2-fe3deb798f28" />
+The next four screenshots are from OPNsense, the VM and system I will be using as a firewall, router and internet gateway. Just to clarify, I didn't go too far in depth as far as firewall rules in this project, as I had covered that more in my detection and automation projects.<br>
+<br>
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 145458" src="https://github.com/user-attachments/assets/4ec0005c-66e9-4983-be42-2e3b5e4fc955" /><br>
+<br>
+This is the interfaces I have configured on this machine.<br>
+<br>
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120408" src="https://github.com/user-attachments/assets/c09b20a6-b28d-4065-89c4-b64c7f149132" /><br>
+<br>
+The Suricata GUI on OPNsense. I will use this to monitor traffic, and create alerts. Suricata will have a standalone project, where I will showcase it in both IDS and IPS mode.<br>
+<br>
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120452" src="https://github.com/user-attachments/assets/a71161e0-901f-4242-8781-8408a1b4d05b" /><br>
+<br>
+This next system is the Wazuh agent interface for OPNsense, this allows me to ingest the alert logs in the Wazuh manager.<br>
+<br>
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120530" src="https://github.com/user-attachments/assets/ff7a2fe6-e844-480a-86d2-fe3deb798f28" /><br>
+<br>
+This last screenshot is an alert from Suricata that made it all the way through to the OsTicket system.<br>
+<br>
 <img width="3840" height="2064" alt="Screenshot 2026-02-28 104905" src="https://github.com/user-attachments/assets/9359e8bb-a6bf-4b40-afc3-9cd3de6a21f4" />
 
