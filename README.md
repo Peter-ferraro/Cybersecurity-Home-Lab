@@ -56,3 +56,24 @@ The last machine is this Windows 11 VM, and its primary goal is to be the target
 <br>
 <br>
 <br>
+Here are the tools and systems that I have installed on these machines.<br>
+<br>
+The first system is OsTicket, an open-source ITSM platform used for centralizing and managing the lifecycle of security incidents. I have OsTicket installed on the Ubuntu server VM. In this project, I will have Wazuh ingest logs from Suricata, and generate a ticket on OsTicket.<br>
+<br>
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 145401" src="https://github.com/user-attachments/assets/9df09dcc-72ce-448e-a5c9-cdee90f011cb" /><br>
+<br>
+On the Ubuntu desktop VM I have Wazuh manager installed, this will function as my SIEM system and EDR. For the sake of this project, I have created a local rule that Wazuh will create a ticket in OsTicket any time an alert of severity is triggered.<br>
+<br>
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 145717" src="https://github.com/user-attachments/assets/1e08baea-06cb-4ced-9800-2b8b2bb1fbc8" /><br>
+<br>
+The next system is OpenVAS (Greenbone) a comprehensive vulnerability management suite used for infrastructure-wide security assessments. This system is installed on the Ubuntu desktop VM. I will use this to scan the Windows 11, and it sends the results of the vulerability scans to Wazuh.<br>
+<br>
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 151224" src="https://github.com/user-attachments/assets/d57275a1-b08f-4462-b821-794f8e2e5eb9" /><br>
+<br>
+
+<img width="1920" height="1032" alt="Screenshot 2026-02-24 145458" src="https://github.com/user-attachments/assets/4ec0005c-66e9-4983-be42-2e3b5e4fc955" />
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120408" src="https://github.com/user-attachments/assets/c09b20a6-b28d-4065-89c4-b64c7f149132" />
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120452" src="https://github.com/user-attachments/assets/a71161e0-901f-4242-8781-8408a1b4d05b" />
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 120530" src="https://github.com/user-attachments/assets/ff7a2fe6-e844-480a-86d2-fe3deb798f28" />
+<img width="3840" height="2064" alt="Screenshot 2026-02-28 104905" src="https://github.com/user-attachments/assets/9359e8bb-a6bf-4b40-afc3-9cd3de6a21f4" />
+
